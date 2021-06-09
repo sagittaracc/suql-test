@@ -1,0 +1,11 @@
+{
+    "name": "suql/test",
+    "autoload": {
+        "classmap": [
+            "app/"
+        ]
+    },
+    "require": {
+        "sagittaracc/suql": "^7"
+    }
+}

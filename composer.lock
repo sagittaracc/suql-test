@@ -1,0 +1,164 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4b21f1f547482a2b693c42105e4a7da0",
+    "packages": [
+        {
+            "name": "sagittaracc/arrays",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sagittaracc/arrays.git",
+                "reference": "cb61c8c2e7e79097267bf2d70aa8a2c8421057bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sagittaracc/arrays/zipball/cb61c8c2e7e79097267bf2d70aa8a2c8421057bc",
+                "reference": "cb61c8c2e7e79097267bf2d70aa8a2c8421057bc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/sagittaracc/arrays/issues",
+                "source": "https://github.com/sagittaracc/arrays/tree/v0.1.2"
+            },
+            "time": "2021-06-07T07:37:23+00:00"
+        },
+        {
+            "name": "sagittaracc/placeholder",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sagittaracc/placeholder.git",
+                "reference": "fec51963a9612ee66875b111808aadfa693b37b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sagittaracc/placeholder/zipball/fec51963a9612ee66875b111808aadfa693b37b1",
+                "reference": "fec51963a9612ee66875b111808aadfa693b37b1",
+                "shasum": ""
+            },
+            "require": {
+                "sagittaracc/arrays": "~0.1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/sagittaracc/placeholder/issues",
+                "source": "https://github.com/sagittaracc/placeholder/tree/v0.1.2"
+            },
+            "time": "2021-06-07T14:06:49+00:00"
+        },
+        {
+            "name": "sagittaracc/strings",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sagittaracc/strings.git",
+                "reference": "a49605c6c3461960a980eb8b84f201ac5418d6df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sagittaracc/strings/zipball/a49605c6c3461960a980eb8b84f201ac5418d6df",
+                "reference": "a49605c6c3461960a980eb8b84f201ac5418d6df",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/sagittaracc/strings/issues",
+                "source": "https://github.com/sagittaracc/strings/tree/v0.1"
+            },
+            "time": "2021-05-07T11:14:39+00:00"
+        },
+        {
+            "name": "sagittaracc/suql",
+            "version": "v7.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sagittaracc/suql.git",
+                "reference": "b848491cd699e474af7e4c22d2a51d100d2535c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sagittaracc/suql/zipball/b848491cd699e474af7e4c22d2a51d100d2535c6",
+                "reference": "b848491cd699e474af7e4c22d2a51d100d2535c6",
+                "shasum": ""
+            },
+            "require": {
+                "sagittaracc/arrays": "^0.1",
+                "sagittaracc/placeholder": "^0.1",
+                "sagittaracc/strings": "^0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/",
+                    "tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sagittaracc",
+                    "email": "sagittaracc@gmail.com"
+                }
+            ],
+            "description": "Sugar SQL",
+            "support": {
+                "issues": "https://github.com/sagittaracc/suql/issues",
+                "source": "https://github.com/sagittaracc/suql/tree/v7.0.8"
+            },
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/Sagittaracc",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-06-08T16:16:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
